@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "minecraft:budding_amethyst"
+      },
+  
+      
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "X#X",
+        "#X#",
+        "X#X"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:amethyst_block"
+        },
+        "X": {
+            "item": "minecraft:amethyst_shard"
+          }
+      },
+      "unlock": [
+          {
+            "item": "minecraft:amethyst_shard"
+          },
+          {
+            "item": "minecraft:amethyst_block"
+          }
+      ],
+      "result": {
+        "item": "minecraft:budding_amethyst"
+      }
+    }
+  }
+  
