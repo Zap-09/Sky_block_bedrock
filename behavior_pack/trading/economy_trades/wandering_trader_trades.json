@@ -3,7 +3,7 @@
     {
       "groups": [
         {
-          "num_to_select": 5,
+          "num_to_select": 6,
           "trades": [
             {
               "max_uses": 3,
@@ -58,6 +58,21 @@
               "gives": [
                 {
                   "item": "minecraft:iron_nugget"
+                }
+              ]
+            },
+            {
+              "max_uses": 32,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:sand",
+                  "quantity": 8
                 }
               ]
             },
@@ -624,21 +639,6 @@
                 {
                   "item": "minecraft:small_dripleaf_block",
                   "quantity": 2
-                }
-              ]
-            },
-            {
-              "max_uses": 8,
-              "wants": [
-                {
-                  "item": "minecraft:emerald",
-                  "quantity": 1
-                }
-              ],
-              "gives": [
-                {
-                  "item": "minecraft:sand",
-                  "quantity": 8
                 }
               ]
             },
