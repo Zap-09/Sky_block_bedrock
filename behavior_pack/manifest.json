@@ -1,24 +1,18 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Example vanilla behavior pack",
-    "name": "Vanilla Behavior Pack",
+    "description": "Requared pack for Sky Block map",
+    "name": "Sky Block",
     "uuid": "f09d5215-b721-4560-885c-6161ad57fd1d",
     "version": [0, 0, 1],
     "min_engine_version": [1, 19, 50]
   },
   "modules": [
     {
-      "description": "Example vanilla behavior pack",
+      "description": "Requared pack for Sky Block map",
       "type": "data",
       "uuid": "9009a2ab-a9d8-4fd4-bbc5-21f915a89dd8",
       "version": [0, 0, 1]
-    },
-    {
-      "description": "GameTest script for portal activation",
-      "type": "scripting",
-      "uuid": "3cccc97d-dd5e-4c06-a24d-e12d1433d08b",
-      "version": [1, 0, 0]
     }
   ]
 }
