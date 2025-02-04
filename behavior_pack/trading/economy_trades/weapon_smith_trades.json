@@ -9,7 +9,7 @@
             {
               "wants": [
                 {
-                  "item": "minecraft:coal:0",
+                  "item": "minecraft::charcoal",
                   "quantity": 15,
                   "price_multiplier": 0.05
                 }
@@ -173,19 +173,18 @@
             {
               "wants": [
                 {
-                  "item": "minecraft:diamond",
-                  "quantity": 1,
-                  "price_multiplier": 0.05
+                  "item": "minecraft:emerald",
+                  "quantity":32
                 }
               ],
               "gives": [
                 {
-                  "item": "minecraft:emerald",
+                  "item": "minecraft:diamond",
                   "quantity": 1
                 }
               ],
               "trader_exp": 30,
-              "max_uses": 12,
+              "max_uses": 2,
               "reward_exp": true
             }
           ]
