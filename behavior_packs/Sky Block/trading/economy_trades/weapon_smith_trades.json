@@ -9,7 +9,7 @@
             {
               "wants": [
                 {
-                  "item": "minecraft::charcoal",
+                  "item": "minecraft:charcoal",
                   "quantity": 15,
                   "price_multiplier": 0.05
                 }

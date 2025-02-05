@@ -3,7 +3,7 @@
     {
       "groups": [
         {
-          "num_to_select": 6,
+          "num_to_select": 7,
           "trades": [
             {
               "max_uses": 3,
@@ -58,6 +58,21 @@
               "gives": [
                 {
                   "item": "minecraft:iron_nugget"
+                }
+              ]
+            },
+            {
+              "max_uses": 64,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:raw_copper",
+                  "quantity": 8
                 }
               ]
             },

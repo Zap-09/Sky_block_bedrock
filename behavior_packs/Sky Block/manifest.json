@@ -2,9 +2,9 @@
   "format_version": 2,
   "header": {
     "description": "Requared pack for Sky Block map",
-    "name": "Sky Block",
+    "name": "Sky Block_BP",
     "uuid": "f09d5215-b721-4560-885c-6161ad57fd1d",
-    "version": [0, 0, 1],
+    "version": [1, 0, 0],
     "min_engine_version": [1, 19, 50]
   },
   "modules": [
@@ -13,6 +13,12 @@
       "type": "data",
       "uuid": "9009a2ab-a9d8-4fd4-bbc5-21f915a89dd8",
       "version": [0, 0, 1]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "3c9e9249-8d68-436f-a846-6c5b9e5e007e",
+      "version": [1, 0, 0]
     }
   ]
 }
